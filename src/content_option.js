@@ -1,144 +1,125 @@
-const logotext = "JOHN";
+const logotext = "Fendy";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Efendi",
+    description: "I’m Efendidata scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Efendi",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I miss you sa",
+        second: "shopefully what we want will be achieved",
+        third: "don't forget to contact me, okay",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Saya seorang Frash Graduate lulusan Sarjana Teknologi dengan minat yang kuat dalam pengembangan web dan Dsign UI/UX . Saya berpengalaman dalam dukungan aplikasi, pemrosesan data, dan visualisasi informasi. Latar belakang saya di bidang sistem informasi telah memperkuatkreativitas, komunikasi, dan kemampuan kerja tim saya. Saya senang membangun situs web, aplikasi, dan desain sambil terus mengeksplorasi teknologi.",
+    your_img_url: require("./assets/images/me.jpg"),
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "Saya seorang Frash Graduate lulusan Sarjana Teknologi dengan minat yang kuat dalam pengembangan web dan . Saya berpengalaman dalam dukungan aplikasi, pemrosesan data, dan visualisasi informasi. Latar belakang saya di bidang sistem informasi telah memperkuat kreativitas, komunikasi, dan kemampuan kerja tim saya. Saya senang membangun situs web, aplikasi, dan desain sambil terus mengeksplorasi teknologi. ",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: " Badan Pusat Statistik ( INTERN )",
+        where: "| Kota Subulussalam ",
+        date: "2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Himpunan Mahasiswa Teknologi Informasi (HIMATIF)  ",
+        where: "| Universitas Teuku Umar",
+        date: "2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Himpunan Mahasiswa Kota Subulussalam (HIMASUB)",
+        where: " | Aceh Barat ",
+        date: "2023",
     },
+     {
+        jobtitle: "Himpunan Mahasiswa Pencak Silat (UKM) ",
+        where: " | Univeristas Teuku Umar  ",
+        date: "2021",
+    }, 
 ];
 
 const skills = [{
         name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Canva",
+        value: 90,
+    },
+    {
+        name: "Javascript",
+        value: 65,
+    },
+    {
+        name: "React",
+        value: 75,
+    },
+    {
+        name: "Figma",
+        value: 80,
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+const services = [
+  {
+    title: "UI & UX Design",
+    description:
+      "Saya mampu merancang antarmuka pengguna yang sederhana, responsif, dan mudah digunakan dengan fokus pada pengalaman pengguna yang optimal.",
+  },
+  {
+    title: "Web Design",
+    description:
+      "Saya berpengalaman dalam membangun tampilan website menggunakan HTML, CSS, dan React, serta memastikan desainnya konsisten dan modern.",
+  },
+  {
+    title: "Frontend Development",
+    description:
+      "Mampu mengubah desain menjadi website interaktif menggunakan React.js dan JavaScript, serta menjaga performa dan struktur kode agar efisien.",
+  },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+const dataportfolio = [
+   {
+    img: "assets/images/projects/project1.jpg",
+    title: "Sistem Informasi Desa Namo Buaya",
+    description: "Menggunakan metode AES 128-bit berbasis web, untuk keamanan data administrasi desa.",
+    link: "#",
+  },
+  {
+     img: "assets/images/projects/project2.jpg",
+    description: "Analisis penggunaan aplikasi Asana untuk meningkatkan manajemen waktu pegawai. ",
+    link: "#",
+  },
+  {
+   img: "assets/images/projects/project3.jpg",
+    description: "Perancangan dan pengembangan web untuk desa Namo Buaya berbasis OpenSID.",
+    link: "#",
+  },
+  {
+     img: "assets/images/projects/project4.jpg",
+    description: "Perancangan dan Pengembangan aplikasi web untuk pemilik kost daerah meurebo, Aceh Barat.",
+    link: "#",
+  },
+  {
+    img: "assets/images/projects/project5.jpg",
+    description: "Eksperimen UI dengan efek hover dinamis.",
+    link: "#",
+  },
+  {
+    img: "assets/images/projects/project6.jpg",
+    description: "Portofolio Web Pribadi",
+    link: "#",
+  },
 ];
+
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "efendi.tif20@gmail.com",
+    YOUR_FONE: "0813-5132-6229",
+    description: "Saya selalu terbuka untuk berdiskusi, berkolaborasi, atau sekadar berbagi ide baru. Jika kamu memiliki proyek, pertanyaan, atau peluang kerja sama, jangan ragu untuk menghubungi saya.Setiap pesan akan saya tanggapi dengan senang hati. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,8 +128,8 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
+    github: "https://github.com/Fennn14",
+    facebook: "https://facebook.com/fendysyahputra",
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
 };
