@@ -7,9 +7,9 @@ const meta = {
 const introdata = {
     title: "I’m Efendi",
     animated: {
-        first: "I miss you sa",
-        second: "shopefully what we want will be achieved",
-        third: "don't forget to contact me, okay",
+        first: "I’m a Web Developer and UI/UX Enthusiast",
+        second: "I love turning ideas into interactive designs",
+        third: "Let’s build something amazing together",
     },
     description: "Saya seorang Frash Graduate lulusan Sarjana Teknologi dengan minat yang kuat dalam pengembangan web dan Dsign UI/UX . Saya berpengalaman dalam dukungan aplikasi, pemrosesan data, dan visualisasi informasi. Latar belakang saya di bidang sistem informasi telah memperkuatkreativitas, komunikasi, dan kemampuan kerja tim saya. Saya senang membangun situs web, aplikasi, dan desain sambil terus mengeksplorasi teknologi.",
     your_img_url: require("./assets/images/me.jpg"),
